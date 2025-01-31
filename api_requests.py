@@ -3,8 +3,8 @@ import requests
 import json
 
 # Competition Environment Variables
-base_url = os.getenv('BASE_URL')
-authentication_token = os.getenv('AUTH_TOKEN')
+base_url = os.getenv('BASE_URL') #
+authentication_token = os.getenv('AUTH_TOKEN') #
 session_id = os.getenv('SESSION_ID')
 
 # Testing Environment Variables
