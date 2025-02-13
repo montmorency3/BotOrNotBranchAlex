@@ -2,7 +2,6 @@ FROM python:3
 
 RUN pip install requests
 RUN pip install pydantic
-RUN pip install json
 RUN pip install openai 
 RUN pip install os 
 RUN pip install random 
