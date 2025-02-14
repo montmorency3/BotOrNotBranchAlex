@@ -9,7 +9,8 @@ from datetime import datetime, timedelta
 
 
 # client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-client = os.getenv('ENV_VAR1')
+client = openai.OpenAI(api_key=os.getenv('ENV_VAR1'))
+
 keywords = []
 times = []
 
