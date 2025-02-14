@@ -3,7 +3,6 @@ FROM python:3
 RUN pip install requests
 RUN pip install pydantic
 RUN pip install openai 
-RUN pip install random 
 RUN pip install datetime
 
 
